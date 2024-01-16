@@ -1,10 +1,10 @@
-// const str = "Hard Works Pays Back";
+const str = "Hard Works Pays Back";
 
-// function findSubstring(word) {
-//   const char = word.toLowerCase();
-//   if (str.includes(char)) {
-//     console.log(true);
-//   }
-// }
+function findSubstring(word) {
+  const char = word.toLowerCase();
+  if (str.includes(char)) {
+    console.log(true);
+  }
+}
 
-// findSubstring("Back");
+findSubstring(str);
